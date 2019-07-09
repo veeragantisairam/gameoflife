@@ -15,6 +15,19 @@
     <version>0.0.1</version>
     <packaging>war</packaging>
     <name>gameoflife</name>
+    
+    <distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://3.15.152.78:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://3.15.152.78:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
     <prerequisites>
         <maven>3.0.0</maven>
